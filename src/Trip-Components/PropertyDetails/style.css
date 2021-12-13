@@ -1,0 +1,103 @@
+.treehouse-photos-container-new {
+    display: grid;
+    height: 35vw;
+    max-height: 500px;
+    min-height: 300px;
+    width: 100%;
+    min-width: 1115px;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* background-color: black; */
+}
+
+.treehouse-photos-container-new:hover div {
+    filter: brightness(0.75);
+}
+
+
+
+
+.treehouse-photo-1 {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+     /* width: 50%;
+     height: 100%; */
+    overflow: hidden;
+}
+
+.treehouse-right-side-photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.treehouse-photo-parent {
+     /* width: 50%;
+     height: 50%; */
+    overflow: hidden;
+}
+
+.photo-2 {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+.photo-3 {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+.photo-4 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+.photo-5 {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
+.treehouse-photo-1:hover,
+.photo-2:hover,
+.photo-3:hover,
+.photo-4:hover,
+.photo-5:hover {
+    filter: brightness(1.33) !important;
+}
+
+ /* .treehouse-photo-parent {
+     width: 25%;
+     height: 50%;
+     overflow: hidden;
+ } */
+
+.treehouse-photo-child {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all .5s;
+    background-position: center;
+    border: 1px solid #484848;
+}
+
+.treehouse-photo-child:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+/* 
+.treehouse-photo-2 {
+    background-image: asset-data-url("small-photo-2.jpeg");
+}
+
+.treehouse-photo-3 {
+    background-image: asset-data-url("small-photo-3.jpg");
+}
+
+.treehouse-photo-4 {
+    background-image: asset-data-url("small-photo-5.jpg");
+}
+
+.treehouse-photo-5 {
+    background-image: asset-data-url("small-photo-4.jpg");
+} */
+
+
+

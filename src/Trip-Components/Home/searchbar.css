@@ -1,0 +1,538 @@
+
+.search-box-label{
+    width: 100px;
+}
+
+/* .search-box-container{
+    display: flex;
+    flex-direction: column;
+} */
+.sreach-box-form-container{
+    display: flex;
+    width: 105%;
+}
+
+
+/* autocomplete */
+.jZkBQk > .wrapper{
+    border: none !important;
+    margin-left: -10px !important;
+}
+.jZkBQk > .wrapper:focus-within{
+    box-shadow: none !important;
+}
+.jZkBQk > .wrapper:hover{
+    box-shadow: none !important;
+}
+.sc-bwzfXH .bWZouD{
+    margin-top: 300px !important;
+}
+
+.frjscc{
+    min-height: 34px !important;
+}
+.frjscc > input{
+    font-size: 18px !important;
+}
+
+
+
+
+
+.DateInput_input{
+    font-size: 15px ;
+}
+
+.splash-image-container{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 32px;
+    color: black;
+    height: 66px;
+    position: relative;
+    width: 53%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 16px 32px, rgb(0 0 0 / 10%) 0px 3px 8px ;
+    --big-search-form-background: #FFFFFF ;
+    background-color: rgb(255, 255, 255) ;
+    transform: translate( 0%, -475%);
+    margin-left: 25%;
+}
+
+
+.search-box-input{
+    display: block ;
+    border: none !important;
+    margin: 0px ;
+    height: 30px !important;
+    padding: 0px ;
+    width: 100% ;
+    background: none ;
+    font-size: 14px ;
+    line-height: 18px ;
+    font-weight: 600 ;
+    color: rgb(34, 34, 34) ;
+    text-overflow: ellipsis ;
+   
+}
+
+.check_-inputs-container{
+    display: block ;
+    border: 0px ;
+    margin: 0px ;
+    padding: 0px ;
+    width: 100% ;
+    background: none ;
+    font-size: 14px ;
+    line-height: 18px ;
+    font-weight: 600 ;
+    color: rgb(34, 34, 34) ;
+    text-overflow: ellipsis ;
+    padding-left: 10px;
+}
+
+
+.search-box-label-1{
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+    height: 12px;
+    cursor: pointer ;
+    display: block ;
+    background-clip: padding-box ;
+    border: 1px solid transparent ;
+    border-radius: 32px ;
+    flex: 1 0 0% ;
+    min-width: 0px ;
+    /* padding: 14px 32px ; */
+    position: relative;
+    z-index: 1;
+    text-align: left;
+   
+}
+
+
+.search-box-label-2 {
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+    height: 12px;
+    cursor: pointer ;
+    display: block ;
+    background-clip: padding-box ;
+    border: 1px solid transparent ;
+    border-radius: 32px ;
+    flex: 1 0 0% ;
+    min-width: 0px ;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.search-box-label-3 {
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+    height: 12px;
+    cursor: pointer ;
+    display: block ;
+    background-clip: padding-box ;
+    border: 1px solid transparent ;
+    border-radius: 32px ;
+    flex: 1 0 0% ;
+    min-width: 0px ;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+
+.search-box-label-4{
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+    height: 12px;
+    cursor: pointer ;
+    display: block ;
+    background-clip: padding-box ;
+    border: 1px solid transparent ;
+    border-radius: 32px ;
+    flex: 1 0 0% ;
+    min-width: 0px ;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.DateRangePickerInput{
+    display: flex !important;
+    border: none !important;
+}
+
+
+textarea:focus, input:focus {
+    border: none;
+    outline: none;
+}
+
+.DateInput_input{
+    padding: 0 !important;
+}
+
+.search-input-container-2{
+    margin-top: 10px !important;
+    width: 21%;
+    margin-left: 2%;
+  }
+
+.search-input-container-1{
+  margin-top: 10px !important;
+  margin-left: 4%;  
+  width: 20%;
+}
+
+.fa-chevron-down{
+    margin-top: 0 !important;
+}
+.fa-chevron-up{
+    margin-top: 0 !important;
+}
+
+.DateInput {
+    margin-left: 8%;
+}
+
+
+.DateRangePicker{
+    display: block !important;
+    margin-right: 11%;
+}
+
+.check_-labels-container{
+    width: 93%;
+}
+
+.DateRangePickerInput_arrow{
+    margin-right: 4%;
+}
+
+.search-bar-date-blocks{
+    width: 40%;
+}
+.search-main-overlay{
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 32px;
+    color: black;
+    height: 66px;
+    position: relative;
+    width: 53%;
+    box-shadow: rgb(0 0 0 / 15%) 0px 16px 32px, rgb(0 0 0 / 10%) 0px 3px 8px ;
+    --big-search-form-background: #FFFFFF ;
+    background-color: rgb(255, 255, 255) ;
+    transform: translate( 0%, -763%);
+    margin-left: 25%;
+}
+
+.search-main-box{
+    display: flex ;
+    flex: 1 1 0% ;
+    height: 100% ;
+    min-width: 0px ;
+    pointer-events: auto ;
+}
+
+.search-first-label{
+    -webkit-box-align: center ;
+    position: relative ;
+    align-items: center ;
+    display: flex ;
+    flex: 1 0 0% ;
+    margin: -1px ;
+    min-width: 0px ;
+}
+
+.search-first-label:hover{
+    background-color: rgb(233, 231, 231);
+    border-radius: 32px;
+}
+
+.search-label-1{
+    cursor: pointer ;
+    display: block ;
+    background-clip: padding-box ;
+    border: 1px solid transparent ;
+    border-radius: 32px ;
+    flex: 1 0 0% ;
+    min-width: 0px ;
+    padding: 14px 32px ;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.search-location{
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+}
+
+.search-label-input{
+    display: block ;
+    border: 0px ;
+    margin: 0px ;
+    padding: 0px ;
+    width: 100% ;
+    background: none ;
+    font-size: 14px ;
+    line-height: 18px ;
+    font-weight: 600 ;
+    color: rgb(34, 34, 34) ;
+    text-overflow: ellipsis ;
+}
+
+.search-vertical-line{
+    /* align-self: center ; */
+    border-right: 1px solid rgb(221, 221, 221) ;
+    flex: 0 0 0px ;
+    height: 32px ;
+    margin-top: 17px;
+}
+
+.search-dates-label-overlay{
+    display: flex ;
+    flex: 2 0 0% ;
+    min-width: 0px ;
+}
+
+.search-dates-check-overlay{
+    align-items: center;
+    display: flex ;
+    flex: 1 0 0% ;
+    margin: -1px ;
+    min-width: 0px ;
+    position: relative ;
+}
+
+.search-dates-check-overlay :hover{
+    background-color: rgb(233, 231, 231);
+    border-radius: 32px;
+}
+
+.search-dates-check-button{
+    appearance: none ;
+    background: transparent ;
+    border: 0px ;
+    cursor: pointer ;
+    display: block ;
+    margin: 0px ;
+    padding: 1px ;
+    text-align: left ;
+    text-decoration: none ;
+    user-select: auto ;
+    flex: 1 0 0% ;
+    width: 0px ;
+    z-index: 1 ;
+}
+
+.search-dates-check-names-overlay{
+    padding: 14px 24px ;
+    overflow: hidden ;
+    position: relative ;
+    white-space: nowrap ;
+    width: 100% ;
+    z-index: 1 ;
+}
+
+.search-dates-check-name-1{
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+}
+
+.search-dates-check-name-2{
+    font-size: 14px ;
+    line-height: 18px ;
+    color: rgb(113, 113, 113) ;
+    font-weight: 400 ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+    width: 100% ;
+}
+
+.search-guest-block{
+    -webkit-box-align: center ;
+    align-items: center ;
+    display: flex ;
+    margin: -1px ;
+    min-width: 0px ;
+    position: relative ;
+    flex: 0.95 0 auto ;
+}
+
+
+.search-guest-button{
+    appearance: none ;
+    background: transparent ;
+    cursor: pointer ;
+    padding: 1px ;
+    text-align: left ;
+    text-decoration: none ;
+    user-select: auto ;
+    flex: 1 0 0% ;
+    width: 0px ;
+    z-index: 1 ;
+}
+
+.search-guest-button:hover{
+    background-color: rgb(233, 231, 231);
+    border-radius: 32px;
+}
+
+.search-guest-names{
+    padding: 14px 24px ;
+    overflow: hidden ;
+    position: relative ;
+    white-space: nowrap ;
+    width: 100% ;
+    z-index: 1 ;
+}
+
+.search-guest-name-1{
+    font-size: 12px ;
+    line-height: 16px ;
+    font-weight: 800 ;
+    letter-spacing: 0.04em ;
+    padding-bottom: 2px ;
+}
+
+.search-guest-name-2{
+    font-size: 14px ;
+    line-height: 18px ;
+    color: rgb(113, 113, 113) ;
+    font-weight: 400 ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+    width: 100% ;
+}
+
+.search-guest-icon{
+    flex: 0 0 auto ;
+    margin-left: -6px ;
+    padding-right: 9px ;
+    position: relative ;
+    z-index: 5 ;
+}
+
+.search-guest-icon-button{
+    appearance: none ;
+    background: rgb(246 153 101) ;
+    color: rgb(255, 255, 255) ;
+    cursor: pointer ;
+    border-radius: 24px ;
+    height: 48px ;
+    max-width: 48px ;
+    position: relative ;
+    transition: max-width 0.2s cubic-bezier(0.35, 0, 0.65, 1) 0s ;
+    vertical-align: middle ;
+    z-index: 0 ;
+    /* margin-left: 42%; */
+    margin-top: 13%;
+}
+
+.search-guest-main-icon{
+    padding: 16px ;
+    display: block;
+    fill: none;
+    height: 16px;
+    stroke: currentcolor;
+    stroke-width: 4;
+    overflow: visible;
+    color: white;
+}
+
+.search-guest-main-icon-1{
+    margin-top: -9px;
+    margin-left: -5px;
+}
+
+.search-first-label-overlay{
+    width: 25%;
+}
+
+@media (min-width: 950px){
+    .search-first-label-overlay{
+        flex: 1.5 0 0% ;
+    }
+}
+
+@media screen and (max-width: 1304px) {
+    .search-main-overlay{
+        transform: translate( 0%, -529%);
+        display: none;
+    }
+} 
+ .search-box {
+    width:92%;
+    height:100px;
+    margin-left: 4%;
+    border-radius: 50px;
+    background-color: #ffffff91;
+    transform: translate(10px, -539px);
+
+}
+
+.search-input{  
+    border:2px solid black;
+    margin-top: 1.5rem;
+    height:50px;
+    width:380px;
+    margin-left: 30px;
+    border-radius: 40px;
+}
+
+.search-input1{
+    border:2px solid black;
+    margin-top: 1.5rem;
+    height:50px;
+    width:380px;
+    border-radius: 40px;
+}
+.search-input2{
+    border:2px solid black;
+    margin-top: 1.5rem;
+    height:50px;
+    width:140px;
+    border-radius: 40px;
+}
+.search-input:hover {
+   border-radius: 10px;
+   color: rgba(255, 0, 0, 0);
+
+}
+.search-button{
+    width:200px;
+    margin-top: 1.5rem;
+    height:50px;
+    font-size: 18px;
+    background-color: #df495b;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px!important;
+}
+
+@media screen and (max-width: 1300px) {
+    .search-box{
+        display: none;
+    }
+}

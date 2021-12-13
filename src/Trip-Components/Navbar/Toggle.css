@@ -1,0 +1,112 @@
+
+
+  .bm-burger-button {
+    position: fixed;
+    top: 0px;
+    width: 30px;
+    height: 20px;
+    right: 36px;
+    top: 40px;
+  }
+  .toggle-img{
+      width: 100px;
+      margin-top: 20px;
+  }
+  .menu-item{
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    color: #fff6f6;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 10px;
+    width: 10px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    float: right;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: linear-gradient(
+      45deg,
+   black, rgb(68, 62, 62));
+     padding: 2.5em 1.5em 0;
+     font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  @media screen and (max-width: 500px) {
+     .bm-burger-button {
+        position: fixed;
+        top: 0px;
+        width: 20px;
+        height: 15px;
+        right: 20px;
+        top: 36px;
+      }
+  }
+  
+
+  /* position: fixed;
+  right: 0px;
+  z-index: 1100;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  transition: all 0.5s ease 0s; */

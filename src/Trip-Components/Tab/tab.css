@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+.react-tabs__tab-panel--selected{
+    display: flex !important;
+    justify-content: center !important;
+}
+.lpcv-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    position: relative;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.lpcv-column {
+    -ms-flex: 28%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 30%;
+    padding: 0 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lpcv-column img {
+    /* margin-top: 8px; */
+    vertical-align: middle;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 240px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    margin-bottom: 55px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: none;
+    background-color: white;
+    position: sticky;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+    z-index: 100;
+  }
+
+.Tab-list-class{
+    /* margin-bottom: 55px;
+    padding-left: 120px;
+    padding-right: 120px; */
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 80px;
+    /* margin-left: -15px; */
+    justify-content: center;
+} 
+
+.Tab-city{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    list-style-type:none;
+}
+
+.Tab-Button{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    margin-top: 3px;
+}
+
+.react-tabs__tab--selected {
+    background: rgb(222 253 214) !important;
+    border-radius: 50px !important;
+    color: transparent !important;
+    height: 30px !important;
+    cursor: pointer !important;
+  }
+
+
+  
+.react-tabs__tab:focus:after {
+    background: none !important;
+    
+}
+
+.tab-text-main-div{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tab-property-name-text{
+    text-align: left;
+    width: 50%;
+}
+
+.tab-property-price-text{
+    text-align: right;
+    width: 50%;
+    margin-right: 7%;    
+}
+
+.tab-text-property-place{
+    display: flex;
+    width: 100%;
+    margin: 2% 0 7% 8%;
+    font-size: 15px;
+
+}
+
+.react-tabs__tab--selected{
+    text-decoration: none !important;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 1304px) {
+    .lpcv-column {
+        -ms-flex: 45%;
+        flex: 45%;
+        max-width: 50%;
+        margin-top: 5%;
+    }
+    .lpcv-row {
+        /* left: 5%; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* margin-left: 5%; */
+        /* top: 2616px; */
+        position: relative;
+    }
+    .lpcv-column img {
+        height: 240px;
+    }
+    .Tab-list-class {
+        margin-bottom: 0%;
+        padding-left: 0;
+        top: 79px;
+        height: 60px;
+        padding-top: 15px;
+        padding-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 40;
+        /* position:sticky; */
+        /* margin-left: 2%; */
+        justify-content: center;
+    }
+    .react-slideshow-container .default-nav:last-of-type{
+        display: none;
+    }
+    .react-slideshow-container .default-nav:first-of-type{
+        display: none
+    }
+  
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 500px) {
+    .lpcv-column {
+        -ms-flex: 95%;
+        flex: 95%;
+        max-width: 95%;
+    }
+    .lpcv-row {
+        margin-left: 3% !important;
+        ;
+    }
+    .landing-page-project-card {
+        margin-left: 4px !important;
+    }
+    .react-slideshow-container .default-nav:last-of-type{
+        display: none;
+    }
+    .react-slideshow-container .default-nav:first-of-type{
+        display: none
+    }
+    .Tab-list-class {
+        margin-bottom: 2%;
+        padding-left: 0;
+        padding-top: 15px;
+        top: 79px;
+        height: 75px;
+        padding-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 40;
+        /* margin-left: 2%; */
+        justify-content: center;
+    }
+    .tab-text-main-div{
+        font-size: 15px;
+    }
+    .tab-text-property-place{
+        font-size: 12px;
+    }
+}
+
+.lpcv-header {
+    font-family: "Overpass", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: 800;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ee7e3f;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 2%;
+    min-height: 34px;
+    min-width: 155px;
+    mix-blend-mode: normal;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.lpcv-text-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    min-height: 66px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.lpcv-para {
+    font-family: "Overpass", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 800;
+    mix-blend-mode: normal;
+    text-align: center;
+    white-space: nowrap;
+    color: #57814b;
+    line-height: 24px;
+    margin-right: 2px;
+    margin-bottom: 15px;
+    min-height: 24px;
+    min-width: 222px;
+}
+
+.landing-page-project-card {
+    margin-left: 24px;
+}
+
+.react-tabs__tab--selected {
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    text-decoration-thickness: 6px;
+}
+.slider {
+    width: 300px;
+   /* border-radius: 20px; */
+}
+.react-slideshow-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;width:300px ;align-items:center}
+.react-slideshow-container .nav{z-index:10}
+.react-slideshow-container .default-nav{height:30px;background:rgba(255,255,255,0.6);width:30px;border:0;text-align:center;cursor:pointer;color:#fff;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.react-slideshow-container .default-nav:hover,.react-slideshow-container .default-nav:focus{background:#fff;color:#666;outline:0}
+.react-slideshow-container .default-nav.disabled:hover{cursor:not-allowed}
+.react-slideshow-container .default-nav:first-of-type{margin-right:-30px;border-right:0;border-top:0}
+.react-slideshow-container .default-nav:last-of-type{margin-left:-30px}
+.react-slideshow-container+ul.indicators{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:20px}
+.react-slideshow-container+ul.indicators li{display:inline-block;position:relative;width:7px;height:7px;padding:5px;margin:0}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator{border:0;opacity:.25;cursor:pointer;background:transparent;color:transparent}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before{position:absolute;top:0;left:0;width:7px;height:7px;border-radius:50%;content:'';background:#000;text-align:center}
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:hover,.react-slideshow-container+ul.indicators .each-slideshow-indicator.active,.react-slideshow-container+ul.indicators .each-slideshow-indicator:focus{opacity:.75;outline:0}
+.react-slideshow-fade-wrapper{width:100%;overflow:hidden}
+.react-slideshow-fade-wrapper .react-slideshow-fade-images-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.react-slideshow-fade-wrapper .react-slideshow-fade-images-wrap>div{position:relative;opacity:0}
+.react-slideshow-wrapper.slide{width:100%;overflow:hidden;border-radius: 12px;}
+.react-slideshow-wrapper .images-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.react-slideshow-zoom-wrapper{width:100%;overflow:hidden}
+.react-slideshow-zoom-wrapper .zoom-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;overflow:hidden}
+.react-slideshow-zoom-wrapper .zoom-wrapper>div{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex}

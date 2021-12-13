@@ -1,0 +1,189 @@
+div {
+  display: block;
+}
+
+.main-img {
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 600px;
+}
+.centered {
+    /* position: absolute; */
+    top: 55%;
+    left: 50%;
+    transform: translate( 0%, -250%);
+  }
+  .home-container {
+    /* position: absolute; */
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 30px!important;
+  }
+  .scroll-head {
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+  }
+
+  .scroll-text {
+    font-size: 17px;
+    color: white;
+    font-weight: 200;  
+  }
+  .ant-carousel .slick-dots li button{
+    margin-top: 50px;
+  }
+ 
+
+  .Text{
+    text-shadow: 0px 2px 4px #2632384d;
+    margin-top: 12px!important;
+    font-size: 18px!important;
+    color: #fff!important;
+  }
+
+  .head{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+    color: #000000;
+    letter-spacing: 0.025em;
+    margin-top:-3rem ;
+    margin-bottom: 2rem!important;
+    font-weight: 900;
+    width: 100%;
+  }
+  /* .contentStyle  {
+    height: 16px;
+    color: white;
+    line-height: 16px;
+    text-align: center!important;
+    position:'absolute',
+  
+  }; */
+
+  .text1 {
+    font-size: 18px!important;
+    color: #000!important;
+    text-align: center!important;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-left: 20%;
+    width: 60%;
+  }
+  @media screen and (max-width: 1300px) {
+    .main-img {
+      /* top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      width: 100%;
+      height: auto; */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 391px;
+  }
+  .head{
+    margin-top:0px ;
+    text-align: center;
+    font-size: 40px!important;
+    color: #000000;
+    margin-top: -3rem;
+    margin-bottom: 1rem!important;
+    font-weight: 900;
+    line-height: 1.2;
+    width: 100%;
+  }
+  .text1 {
+    font-size: 20px!important;
+    color: #000!important;
+    text-align: center!important;
+    /* margin-bottom: -1rem; */
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 5%;
+    width: 90%;
+  }
+  h3 {
+      width:90%;
+      margin-left: 5%;
+  }
+  .scroll-head {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .scroll-text {
+    font-size: 15px;
+    color: white;
+    font-weight: 200; 
+    width:90%; 
+    margin-left: 5%;
+  }
+  }
+
+  @media screen and (max-width: 500px) {
+    .main-img {
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      width: 100%;
+      height: auto;
+  }
+  .head{
+    text-align: center;
+    font-size: 25px!important;
+    color: #000000;
+    margin-top: -2rem;
+    /* margin-bottom: 2rem!important; */
+    font-weight: 900;
+    line-height: 1.2;
+    width: 100%;
+  }
+  .text1 {
+    font-size: 15px!important;
+    color: #000!important;
+    text-align: center!important;
+    margin-bottom: -1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .centered {
+    /* position: absolute; */
+    top: 55%;
+    left: 50%;
+    transform: translate( 0%, -220%);
+  }
+  .scroll-head {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .scroll-text {
+    font-size: 10px;
+    color: white;
+    font-weight: 100; 
+    width:80%; 
+    margin-left: 10%;
+  }
+  .First-Text-Container{
+    /* background-image: url("../Images/bg-2.jpg");
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed; */
+    margin-top: 5%;
+  }
+  }
